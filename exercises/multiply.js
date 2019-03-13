@@ -9,6 +9,22 @@
  */
 
 // Your code :
+function multiply(number1, number2) {
+    let varPositif1 = Math.abs(number1)
+    let varPositif2 = Math.abs(number2)
+    let sum = 0;
+    for (let i = 0; i < varPositif2; i++) {
+      sum += number1;
+    }
+  
+    if (number1 < 0 && number2 < 0) {
+      return -sum;
+    } else if (number1 > 0 && number2 < 0 ) {
+      return -sum;
+    } else {
+      return sum;
+    }
+  }
 
 //* Begin of tests
 const assert = require('assert')
