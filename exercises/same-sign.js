@@ -10,10 +10,10 @@
 // Your code :
 function sameSign(number1, number2) {
   if (number1 * number2 > 0 || (number1 === number2)) {
-  return true;
-} else {
-  return false;
-}
+    return true;
+  } else {
+    return false;
+  }
 }
 
 

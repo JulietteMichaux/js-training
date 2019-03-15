@@ -10,8 +10,8 @@
 
 // Your code :
 function multiply(number1, number2) {
-    let varPositif1 = Math.abs(number1)
-    let varPositif2 = Math.abs(number2)
+    let varPositif1 = Math.abs(number1);
+    let varPositif2 = Math.abs(number2);
     let sum = 0;
     for (let i = 0; i < varPositif2; i++) {
       sum += number1;
